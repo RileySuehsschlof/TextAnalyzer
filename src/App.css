@@ -1,15 +1,53 @@
 .txtInput {
-  background-color: red;
-  width: 50%;
-}
-.results {
-  background-color: blue;
+  background-color: #8399a8;
   width: 50%;
   height: 100vh;
+  text-align: center;
+}
+.results {
+  background-color: #8399a8;
+  width: 50%;
+  height: 100vh;
+  text-align: center;
 }
 .container {
   display: flex;
 }
 body {
   margin: 0px;
+}
+.inputField {
+  width: 80%;
+  height: 50%;
+  text-align: start;
+  padding: 0.5rem;
+  vertical-align: top;
+  border: 2.5px solid black;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.myBtn {
+  width: 80px;
+}
+#frequency {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 35vh;
+  background-color: white;
+  width: fit-content;
+  padding: 10px;
+  border: 2.5px solid black;
+}
+.word {
+  margin: 0px;
+}
+.frequency {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
